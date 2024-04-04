@@ -1,0 +1,151 @@
+.Navbar-container
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    padding: 0 40px;
+    box-shadow: 0px 0px 13px -4px #0000002e;
+
+}
+
+.navbar-navigation-box
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.nav-box
+{
+ font-size: 1.1rem;
+ cursor: pointer;
+}
+
+.nav-box-btn button
+{
+    height: 45px;
+    width: 100px;
+    color: white;
+    font-size: 1.1rem;
+    cursor: pointer;
+    background-color: black;
+}
+.side-menu-icon
+{
+    display: none;
+}
+.side-menu-icon img
+{
+    height: 30px;
+    
+}
+
+@media (max-width:850px) {
+    .side-menu-icon
+{
+    display: block;
+}
+
+.navbar-navigation-box
+{
+    display: none;
+}
+}
+
+
+/* hamburger menu */
+
+.overlay {
+    height: 100vh;
+    width: 0;
+    position: fixed;
+    z-index: 11;
+    left: 0;
+    top: 0;
+    background-color: rgb(255, 255, 255);
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+.overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.overlay a {
+    padding: 10px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #000000;
+    display: block;
+    transition: 0.3s;
+}
+
+.overlay a:hover,
+.overlay a:focus {
+    color: #272626;
+}
+
+.overlay .closebtn {
+    position: absolute;
+    top: 12px;
+    right: 20px;
+    font-size: 30px;
+}
+
+.contact_section-menu button {
+    height: 45px;
+    width: 150px;
+    background-color: black;
+    color: white;
+    border: 0;
+    outline: 0;
+    font-size: 17px;
+    font-weight: 600;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;
+}
+
+@media screen and (max-height: 450px) {
+    .overlay a {
+        font-size: 20px
+    }
+
+    .overlay .closebtn {
+        font-size: 40px;
+        top: 15px;
+        right: 35px;
+    }
+
+    .contact_section-menu button {
+        display: block;
+    }
+}
+
+.menu-top
+{
+   position: relative;
+    width: 100%;
+}
+
+.menu-top img
+{
+    position: absolute;
+    height: 46px;
+    top: 19px;
+    left: 32px;
+}
+
+
+
+
+#sub_menu_dropdown {
+    display: none;
+
+}
