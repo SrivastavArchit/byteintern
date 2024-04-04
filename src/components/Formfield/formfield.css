@@ -185,15 +185,7 @@ input[type=number] {
         width: 390px;
     }
 
-    .form-top-heading
-    {
-        font-size: 1.5rem;
-    }
-    
-    .form-sub-heading
-    {
-        font-size: 1.1rem;
-    }
+   
 }
 
 @media (max-width:410px) {
@@ -204,7 +196,7 @@ input[type=number] {
     
 }
 
-@media (max-width:360px) {
+@media (max-width:361px) {
     .form-box form
     {
         width: 320px;
@@ -212,7 +204,7 @@ input[type=number] {
 
     .form-top-heading
     {
-        font-size: 1.3rem;
+        font-size: 1.4rem;
     }
     
     .form-sub-heading
