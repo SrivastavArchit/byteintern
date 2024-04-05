@@ -1,12 +1,13 @@
 import React from 'react'
-import Navbar from '../components/Navbar/Navbar'
-import Blank from '../components/Blank/Blank'
+import Blank from '../components/Blank/Blank';
+import Hero from '../components/Hero/Hero';
 
 const Homepage = () => {
     return (
         <>
             <div className='wrapper'>
                 <Blank />
+                <Hero/>
             </div>
         </>
     )
