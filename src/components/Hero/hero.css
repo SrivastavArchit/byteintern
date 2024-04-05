@@ -8,6 +8,7 @@
     flex-direction: row;
     box-shadow: 0 0 0 2px solid rgb(142, 135, 135);
     overflow-x: hidden;
+    overflow-y: hidden;
 }
 
 
