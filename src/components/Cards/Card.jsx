@@ -10,33 +10,33 @@ const Card = () => {
             id: 1,
             title: "Simplified Internships",
             desc: "Explore virtual internships in Web Dev, App Dev, Full Stack, ML, and Data Science; focused learning",
-            image:rocket
+            image: rocket
 
         },
         {
             id: 2,
             title: "Build your Network",
             desc: "We believe in networking to connect with other interns who are interested in the same things.",
-            image:responsive
+            image: responsive
         },
         {
             id: 3,
             title: "Building Student Trust",
             desc: "We ensure your success and build a trusted platform for valuable learning experiences.",
-            image:social
+            image: social
 
         },
         {
             id: 4,
             title: "Structured Learning",
             desc: "Enjoy growth-oriented internship at Bharat Intern, tailored for maximum skill development.",
-            image:vlog
+            image: vlog
         }
     ];
-    const Card = ({ title, desc,image }) => (
+    const Card = ({ title, desc, image }) => (
         <div className='card' >
             <div className='icon'>
-<img src={image} alt="" />
+                <img src={image} alt="" />
             </div>
             <div className='card-text'>
                 <h3>{title}</h3>
