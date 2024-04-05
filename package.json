@@ -11,10 +11,7 @@
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.22.3",
     "react-scripts": "5.0.1",
-<<<<<<< HEAD
     "react-type-animation": "^3.2.0",
-=======
->>>>>>> 79df2d9aaca48e27466e8b2ceea6299babb30615
     "vanta": "^0.5.24",
     "web-vitals": "^2.1.4"
   },
