@@ -1,17 +1,17 @@
-.hero_section
-{
+.hero_section {
     height: 80vh;
     width: 100%;
     background-color: #FFFFFF;
     display: flex;
     justify-content: center;
     align-items: center;
-    border-top: 2px solid rgb(179, 175, 175);
-   box-shadow: 0 0 0 2px solid rgb(142, 135, 135) ;
+    flex-direction: row;
+    box-shadow: 0 0 0 2px solid rgb(142, 135, 135);
+    overflow-x: hidden;
 }
 
 
-.left-hero{
+.left-hero {
     width: 45%;
     height: 60vh;
     background-color: rgb(255, 255, 255);
@@ -19,57 +19,210 @@
     justify-content: center;
     align-items: center;
 }
-.right-hero{
+
+.right-hero {
     width: 45%;
-    height: 60vh;
+    height: auto;
     position: relative;
     /* background-color: rgb(255, 255, 255); */
 }
-.left-hero h1{
+
+.left-hero h1 {
     text-align: center;
-    
+
 }
-.hero-text{
- margin-left: 7rem;
+
+.hero-group-text {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    width: 100%;
 }
-.left-text-part2{
+
+.hero-text {
+    text-align: start;
+    width: 100%;
+}
+
+.left-text-part2 {
     padding-top: 2rem;
-    width: 30vw;
-}
-.left-text-part2 h3{
-    font-size: medium;
+    width: 80%;
+    text-align: start;
+    font-size: 1.1rem;
     font-weight: 300;
-    width:100%;
-    padding-left: 7rem;
-    color: #5D5D5D;
-    text-align: center;
+    width: 70%;
+    color: #5D5D5D
 }
-.text-group{
+
+
+
+.text-group {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     gap: .7rem;
     width: 100%;
-    
+
 }
-.right-hero img{
+
+.right-hero img {
     margin-bottom: 10vh;
     width: 80%;
     margin-left: 10%;
     margin-bottom: 15%;
-  
+
 }
-.right-hero .span1{
-    position:absolute;
-top: 70%;
-left: 60%;
-transform: translate(-50%,-50%);
-width: 100%;
-z-index: 3;
+
+.right-hero .span1 {
+    position: absolute;
+    top: 70%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    z-index: 3;
 }
-.right-hero .span2{
-    position:absolute;
-top: 70%;
-left: 50%;
-transform: translate(-50%,-50%);
-width: 100%;
+
+.right-hero .span2 {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+
+/* Typing Effect */
+
+.top-heading-typing {
+    font-size: 2.1rem;
+    font-weight: 700;
+}
+
+
+
+.domain-typing {
+    width: 100%;
+    border: 0;
+    background-color: #5d5d5d00;
+    font-size: 2.9rem;
+    font-weight: 600;
+
+}
+
+@media (max-width:1400px) {
+    .hero_section {
+        flex-direction: column-reverse;
+        width: 100%;
+        height: auto;
+    }
+
+    .left-hero {
+        width: 100%;
+    }
+
+    .left-hero {
+        height: auto;
+    }
+
+    .hero-group-text {
+        justify-content: center;
+        align-items: start;
+        flex-direction: column;
+        width: 50%;
+    }
+    .right-hero
+    {
+        width: 100%;
+        /* margin-bottom: 3rem; */
+    }
+
+    .hero-text {
+        text-align: center;
+    }
+
+    .domain-typing {
+        text-align: center;
+
+    }
+
+    .left-text-part2 {
+        text-align: center;
+        width: 100%;
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width:950px) {
+
+    .hero-group-text {
+        width: 70%;
+    }
+}
+@media (max-width:825px) {
+
+    .hero-group-text {
+        width: 80%;
+    }
+}
+@media (max-width:740px) {
+
+    .hero-group-text {
+        width: 90%;
+    }
+}
+
+@media (max-width:650px) {
+
+    .domain-typing {
+        font-size: 2.2rem;
+    }
+    .top-heading-typing
+    {
+        font-size: 1.7rem;
+    }
+}
+
+@media (max-width:500px) {
+
+    .domain-typing {
+        font-size: 2rem;
+    }
+    .top-heading-typing
+    {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width:450px) {
+
+    .domain-typing {
+        font-size: 1.7rem;
+    }
+    .top-heading-typing
+    {
+        font-size: 1.3rem;
+    }
+}
+
+@media (max-width:388px) {
+
+    .domain-typing {
+        font-size: 1.5rem;
+    }
+    .top-heading-typing
+    {
+        font-size: 1.1rem;
+    }
+}
+
+@media (max-width:355px) {
+
+    .domain-typing {
+        font-size: 1.3rem;
+    }
+    .top-heading-typing
+    {
+        font-size: 1rem;
+    }
 }
