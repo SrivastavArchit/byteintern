@@ -9,6 +9,7 @@ const Formfield = () => {
 
     useEffect(() => {
         const form = document.forms['submit-to-google-sheet'];
+        msg = document.getElementById("conform-msg");
 
         const submitForm = (e) => {
             e.preventDefault();
@@ -26,6 +27,7 @@ const Formfield = () => {
             form.removeEventListener('submit', submitForm);
         };
 
+       
        
     }, []);
 

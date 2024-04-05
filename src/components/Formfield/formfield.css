@@ -234,3 +234,9 @@ input[type=number] {
         width: 300px;
     }
 }
+
+#conform-msg
+{
+    font-size: 0.9rem;
+    padding-top: 10px;
+}
