@@ -1,6 +1,75 @@
-.hero-container
+.hero_section
 {
-    height: 100vh;
-    width: 100vw;
-    background-color: rgb(51, 79, 79);
+    height: 80vh;
+    width: 100%;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 2px solid rgb(179, 175, 175);
+   box-shadow: 0 0 0 2px solid rgb(142, 135, 135) ;
+}
+
+
+.left-hero{
+    width: 45%;
+    height: 60vh;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.right-hero{
+    width: 45%;
+    height: 60vh;
+    position: relative;
+    /* background-color: rgb(255, 255, 255); */
+}
+.left-hero h1{
+    text-align: center;
+    
+}
+.hero-text{
+ margin-left: 7rem;
+}
+.left-text-part2{
+    padding-top: 2rem;
+    width: 30vw;
+}
+.left-text-part2 h3{
+    font-size: medium;
+    font-weight: 300;
+    width:100%;
+    padding-left: 7rem;
+    color: #5D5D5D;
+    text-align: center;
+}
+.text-group{
+    display: flex;
+    flex-direction: column;
+    gap: .7rem;
+    width: 100%;
+    
+}
+.right-hero img{
+    margin-bottom: 10vh;
+    width: 80%;
+    margin-left: 10%;
+    margin-bottom: 15%;
+  
+}
+.right-hero .span1{
+    position:absolute;
+top: 70%;
+left: 60%;
+transform: translate(-50%,-50%);
+width: 100%;
+z-index: 3;
+}
+.right-hero .span2{
+    position:absolute;
+top: 70%;
+left: 50%;
+transform: translate(-50%,-50%);
+width: 100%;
 }
