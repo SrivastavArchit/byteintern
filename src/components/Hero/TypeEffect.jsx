@@ -6,7 +6,7 @@ const TypeEffect = () => {
   return (
         <div>
           <div className='top-heading-typing'>
-          <ReactTyped strings={["We are provide experience of "]} typeSpeed={0} />
+          <ReactTyped strings={["We are Provide Experience on "]} typeSpeed={0} />
           </div>
       
           <ReactTyped
