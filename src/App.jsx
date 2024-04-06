@@ -23,10 +23,10 @@ function ScrollToTop() {
 const App = () => {
   const [isLoading, setIsLoading] = useState(true);
   useEffect(() => {
-    // Simulate content loading
+
     setTimeout(() => {
       setIsLoading(false);
-    }, 2000); // Change this value to the time you expect your content to load
+    }, 4000); 
   }, []);
   return (
     <>
