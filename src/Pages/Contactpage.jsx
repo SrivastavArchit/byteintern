@@ -6,6 +6,7 @@ const Contactpage = () => {
     <>
         <Blank/>
         <h1>contact us page</h1>
+        <h1>here it is</h1>
     </>
   )
 }
