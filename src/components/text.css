@@ -12,6 +12,7 @@
     font-family: 'Montserrat', sans-serif;
     /* background-color: var(--backgroundColor); */
     background-color: white;
+   
   }
   
   .reveal {
@@ -19,6 +20,7 @@
     background-color: white;
     padding: 0 3rem;
     text-align: start;
+   
   }
   
   .reveal-text {
@@ -77,8 +79,8 @@
 
   @media (max-width:470px) {
     .reveal-text {
-      font-size: 2.5rem;
-      line-height: 3.5rem;
+      font-size: 6rem;
+      line-height: 6.6rem;
     }
 
     .reveal {
