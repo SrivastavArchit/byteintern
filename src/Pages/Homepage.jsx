@@ -6,15 +6,21 @@ import Techstack from '../components/techstack/Techstack';
 import TextReveal from '../components/TextReveal';
 
 
+const trial_height={
+    height:"100vh",
+    backgroundColor:"white"
+}
+
 const Homepage = () => {
     return (
         <>
             <div className='wrapper'>
                 <Blank />
-                <Hero/>
-                <Card/>
-                <Techstack/>
-          <TextReveal/>
+                <Hero />
+                <Card />
+                <Techstack />
+                <TextReveal />
+                <div className='trial-height' style={trial_height}></div>
             </div>
         </>
     )

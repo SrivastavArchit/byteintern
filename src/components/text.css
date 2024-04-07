@@ -10,11 +10,13 @@
   
   .text-rev {
     font-family: 'Montserrat', sans-serif;
-    background-color: var(--backgroundColor);
+    /* background-color: var(--backgroundColor); */
+    background-color: white;
   }
   
   .reveal {
-    background: var(--backgroundColor);
+    /* background: var(--backgroundColor); */
+    background-color: white;
     padding: 0 3rem;
     text-align: start;
   }
@@ -28,12 +30,14 @@
   }
   
   .spacing-small {
-    height: 20vh;
+    height: auto;
+    padding: 3rem 0;
   }
   
   .spacing {
-    height: 100vh;
+    height: auto;
     width: 100%;
+    padding: 3rem 0;
   }
 
   @media (max-width:1400px) {
