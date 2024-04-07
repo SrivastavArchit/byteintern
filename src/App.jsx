@@ -6,7 +6,6 @@ import Navbar from './components/Navbar/Navbar';
 import Aboutpage from './Pages/Aboutpage';
 import Contactpage from './Pages/Contactpage';
 import Preloader from './components/Preloader/Preloader';
-import Cursor from './components/cursor/Cursor';
 
 
 function ScrollToTop() {
@@ -22,23 +21,16 @@ function ScrollToTop() {
 
 
 const App = () => {
- 
   const [isLoading, setIsLoading] = useState(true);
   useEffect(() => {
 
     setTimeout(() => {
       setIsLoading(false);
- main
-    }, 3240); 
-
     }, 10); 
-main
   }, []);
   return (
     <>
-     <Cursor/>
     {
-
       isLoading?(
         <Preloader/>
       ):(
