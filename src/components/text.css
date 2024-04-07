@@ -10,39 +10,88 @@
   
   .text-rev {
     font-family: 'Montserrat', sans-serif;
-    background-color: var(--backgroundColor);
+    /* background-color: var(--backgroundColor); */
+    background-color: white;
   }
   
   .reveal {
-    background: var(--backgroundColor);
-    padding-left: 30%;
-    padding-right: 10%;
+    /* background: var(--backgroundColor); */
+    background-color: white;
+    padding: 0 3rem;
+    text-align: start;
   }
   
   .reveal-text {
     font-weight: 800;
-    font-size: var(--headlineBig);
+    font-size: 8rem;
     line-height: var(--headlineBig);
     color: var(--backgroundColor);
     filter: drop-shadow(0 0 0.06rem rgb(2, 2, 2));
   }
   
   .spacing-small {
-    height: 20vh;
+    height: auto;
+    padding: 3rem 0;
   }
   
   .spacing {
-    height: 100vh;
+    height: auto;
+    width: 100%;
+    padding: 3rem 0;
+  }
+
+  @media (max-width:1400px) {
+    .reveal-text {
+    font-size: 6rem;
+
+  }
+  }
+
+  @media (max-width:1190px) {
+    .reveal-text {
+    font-size: 5rem;
+
+  }
+  }
+
+  @media (max-width:1000px) {
+    .reveal-text {
+    font-size: 4rem;
+    line-height: 5rem;
+
+  }
+  }
+
+  @media (max-width:600px) {
+    .reveal-text {
+    font-size: 3rem;
+    line-height: 4rem;
+  }
+
+  .reveal
+  {
+    text-align: center;
+  }
   }
   
-  @media screen and (max-width: 500px) {
-    .reveal {
-      padding-left: 4.5rem;
-     
+
+  @media (max-width:470px) {
+    .reveal-text {
+      font-size: 2.5rem;
+      line-height: 3.5rem;
     }
-    .reveal-text{
-        font-size: 80px;
 
+    .reveal {
+      padding: 0 1.5rem;
+    }
+  }
 
+  @media (max-width:350px) {
+    .reveal-text {
+      font-size: 2rem;
+      line-height: 3rem;
+    }
+    .reveal {
+      padding: 0 0.7rem;
     }
   }

@@ -95,3 +95,17 @@
       transform: translateX(-50%);
     }
   }
+
+  @media (max-width:1000px) {
+    .tag-list{
+      width: 75vw;
+    }
+    
+  }
+
+  @media (max-width:650px) {
+    .tag-list{
+      width: 100vw;
+    }
+    
+  }
