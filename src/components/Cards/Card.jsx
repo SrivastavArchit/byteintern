@@ -61,7 +61,8 @@ const Card = () => {
                 y: 0,
                 transition: {
                     delay: i * 0.2,
-                    duration: 0.5
+                    duration: 0.5,
+                    
                 }
             }));
         }
