@@ -3,6 +3,7 @@ import Blank from '../components/Blank/Blank';
 import Hero from '../components/Hero/Hero';
 import Card from '../components/Cards/Card';
 import Techstack from '../components/techstack/Techstack';
+import TextReveal from '../components/TextReveal';
 
 
 const Homepage = () => {
@@ -13,7 +14,7 @@ const Homepage = () => {
                 <Hero/>
                 <Card/>
                 <Techstack/>
-          
+          <TextReveal/>
             </div>
         </>
     )

@@ -1,0 +1,48 @@
+
+:root {
+    --backgroundColor: #fbfbfb;
+    --backgroundColorSecondary: #d7c2f6;
+    --textPrimaryColor: #2A2A2A;
+  
+    --headlineBig: clamp(3rem, 10vw, 15rem);
+    --headlineSmall: clamp(1rem, 1.2vw, 6rem);
+  }
+  
+  .text-rev {
+    font-family: 'Montserrat', sans-serif;
+    background-color: var(--backgroundColor);
+  }
+  
+  .reveal {
+    background: var(--backgroundColor);
+    padding-left: 30%;
+    padding-right: 10%;
+  }
+  
+  .reveal-text {
+    font-weight: 800;
+    font-size: var(--headlineBig);
+    line-height: var(--headlineBig);
+    color: var(--backgroundColor);
+    filter: drop-shadow(0 0 0.06rem rgb(2, 2, 2));
+  }
+  
+  .spacing-small {
+    height: 20vh;
+  }
+  
+  .spacing {
+    height: 100vh;
+  }
+  
+  @media screen and (max-width: 500px) {
+    .reveal {
+      padding-left: 4.5rem;
+     
+    }
+    .reveal-text{
+        font-size: 80px;
+
+
+    }
+  }
