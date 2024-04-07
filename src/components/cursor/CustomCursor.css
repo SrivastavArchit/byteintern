@@ -1,6 +1,7 @@
 .custom-cursor {
     position: fixed;
-    height: 10px; 
+    height: 15px; 
+    width: 15px;
     background-color: black;
     border-radius: 50%; 
     pointer-events: none; 

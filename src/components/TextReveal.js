@@ -24,7 +24,7 @@ function TextReveal() {
                 scrollTrigger: {
                     trigger: triggerRef.current,
                     scrub: true,
-                    start: "top 30%",
+                    start: "top 50%",
                     end: "bottom 85%",
                    markers:true
 
