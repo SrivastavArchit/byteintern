@@ -8,6 +8,13 @@
     z-index: 69; 
     transition: transform 0.1s ease; 
   }
+
+  @media (max-width:850px){
+    .custom-cursor{
+        height:0;
+        width: 0;
+    }
+  }
   
  
   
