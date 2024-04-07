@@ -1,0 +1,212 @@
+.contactus-container {
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.contactus-form {
+    color: white;
+    width: 50%;
+    /* height: 100%; */
+}
+
+
+.contactus-form form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* height: 100%; */
+    gap: 2rem;
+}
+
+.form-heading {
+    color: white;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.inpt-box input {
+    width: 400px;
+    height: 50px;
+    outline: none;
+    border: 0;
+    padding: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+}
+
+.textarea-box textarea {
+    width: 400px;
+    height: 120px;
+    outline: none;
+    border: 0;
+    padding: 15px;
+    font-size: 18px;
+    border-radius: 10px;
+    resize: none;
+}
+
+.contactus-submit-btn button {
+    width: 100px;
+    height: 40px;
+    cursor: pointer;
+    background-color: white;
+    border: 0;
+    border-radius: 25px;
+    font-size: 17px;
+    font-weight: 600;
+    transition: all 0.9s ease;
+
+}
+
+.contactus-submit-btn button:hover {
+    background-color: rgba(255, 255, 255, 0.905);
+}
+
+.contactus-detail {
+    width: 50%;
+    color: #ffffff;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2.5rem;
+}
+
+.contactus-detail-box {
+    height: 200px;
+    width: 390px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: black;
+    gap: 1.5rem;
+
+}
+
+.box-img img {
+    height: 70px;
+    padding: 15px;
+    border-radius: 50%;
+    background-color: black;
+}
+
+.box-detail {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+
+@media (max-width:1150px) {
+    .contactus-container {
+        height: 100%;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .contactus-detail {
+        width: 100%;
+        justify-content: space-evenly;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .contactus-form {
+        padding: 2rem 0;
+        width: 100%;
+    }
+    .contactus-detail
+    {
+        padding-bottom: 2rem;
+    }
+}
+
+@media (max-width:900px) {
+    .contactus-detail {
+        width: 100%;
+        justify-content: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width:450px) {
+    .inpt-box input {
+        width: 350px;
+        height: 50px;
+       
+    }
+
+    .textarea-box textarea {
+        width: 350px;
+        height: 120px;
+    }
+
+    .contactus-detail-box {
+        height: 200px;
+        width: 350px;
+        
+    }
+    
+}
+
+@media (max-width:388px) {
+    .inpt-box input {
+        width: 320px;
+        height: 50px;
+       
+    }
+
+    .textarea-box textarea {
+        width: 320px;
+        height: 120px;
+    }
+
+    .contactus-detail-box {
+        height: 200px;
+        width: 320px;
+        
+    }
+    
+}
+
+@media (max-width:350px) {
+    .inpt-box input {
+        width: 300px;
+        height: 40px;
+       
+    }
+
+    .textarea-box textarea {
+        width: 300px;
+        height: 100px;
+    }
+
+    .contactus-detail-box {
+        height: 200px;
+        width: 300px;
+        
+    }
+    
+}
