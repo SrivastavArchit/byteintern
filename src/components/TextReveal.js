@@ -26,7 +26,7 @@ function TextReveal() {
                     scrub: true,
                     start: "top 50%",
                     end: "bottom 85%",
-                   markers:true
+                  
 
                 },
                 color: "#2A2A2A",
