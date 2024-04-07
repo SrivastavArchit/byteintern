@@ -28,7 +28,11 @@ const App = () => {
 
     setTimeout(() => {
       setIsLoading(false);
+ main
     }, 3240); 
+
+    }, 10); 
+main
   }, []);
   return (
     <>
