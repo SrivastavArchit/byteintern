@@ -24,8 +24,9 @@ function TextReveal() {
                 scrollTrigger: {
                     trigger: triggerRef.current,
                     scrub: true,
-                    start: "top 50%",
-                    end: "bottom 85%"
+                    start: "top 30%",
+                    end: "bottom 85%",
+                   markers:true
 
                 },
                 color: "#2A2A2A",
