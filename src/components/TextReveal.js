@@ -26,13 +26,13 @@ function TextReveal() {
                     scrub: true,
                     start: "top center",
                     end: "bottom 85%",
-                  markers:true
+                
 
                 },
                 color: "#2A2A2A",
                 duration: 5, // Reduced duration for smoother performance
                 stagger: 0.5,
-                marker:true
+               
             }
         );
         return (() => {
