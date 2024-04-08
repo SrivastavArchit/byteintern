@@ -44,7 +44,7 @@ const Ourwork = () => {
       }, []);
   return (
     
-    <div>
+    <div className=''>
        <div className="work-section">
         <div className="ourwork-txt">
             <div id="our">
