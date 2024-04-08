@@ -26,8 +26,10 @@ const Homepage = () => {
                 <Ourwork/>
                
                 {/* <div className='trial-height' style={trial_height}></div> */}
-
-                <Footer/>
+<div className='footer-show'>
+<Footer />
+</div>
+               
             </div>
         </>
     )
