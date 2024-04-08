@@ -22,8 +22,11 @@ const Homepage = () => {
                 <Card />
                 <Techstack />
                 <TextReveal />
+               
                 <Ourwork/>
+               
                 {/* <div className='trial-height' style={trial_height}></div> */}
+
                 <Footer/>
             </div>
         </>
