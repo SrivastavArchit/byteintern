@@ -2,7 +2,7 @@
     position: fixed;
     height: 15px; 
     width: 15px;
-    background-color: black;
+    background-color: rgb(134, 95, 160);
     border-radius: 50%; 
     pointer-events: none; 
     z-index: 69; 

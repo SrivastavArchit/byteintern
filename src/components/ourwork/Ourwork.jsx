@@ -38,7 +38,7 @@ const Ourwork = () => {
             duration: 1
           },"height");
           tl.to(".img-scroll", {
-            marginTop: "-300%",
+            marginTop: "-200%",
             duration: 1
           });
       }, []);
