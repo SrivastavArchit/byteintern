@@ -4,6 +4,7 @@ import Hero from '../components/Hero/Hero';
 import Card from '../components/Cards/Card';
 import Techstack from '../components/techstack/Techstack';
 import TextReveal from '../components/TextReveal';
+import Ourwork from '../components/ourwork/Ourwork';
 
 
 const trial_height={
@@ -20,6 +21,7 @@ const Homepage = () => {
                 <Card />
                 <Techstack />
                 <TextReveal />
+                <Ourwork/>
                 <div className='trial-height' style={trial_height}></div>
             </div>
         </>
